@@ -32,7 +32,7 @@ class TemplateSkill(MycroftSkill):
     #    vocab/en-us/Hello.voc
     #    vocab/en-us/World.voc
     # In this example that means it would match on utterances like:
-    #   'Hello world'
+    #   'javascript learn'
     #   'Howdy you great big world'
     #   'Greetings planet earth'
     @intent_handler(IntentBuilder("").require("Hello").require("World"))
